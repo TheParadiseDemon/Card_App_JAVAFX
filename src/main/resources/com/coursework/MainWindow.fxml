@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #fdfcf9;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.coursework.MainWindowController">
+   <children>
+      <Pane cacheShape="false" layoutX="15.0" layoutY="16.0" prefHeight="369.0" prefWidth="571.0" style="-fx-background-color: #f7f6eb;">
+         <children>
+            <Label fx:id="ChangeProfile" alignment="CENTER" layoutX="266.0" layoutY="38.0" onMouseClicked="#ChangeProfileClicked" prefHeight="33.0" prefWidth="101.0" text="Сменить пользователя" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font name="Century Gothic" size="12.0" />
+               </font>
+            </Label>
+         </children></Pane>
+      <Button layoutX="399.0" layoutY="48.0" mnemonicParsing="false" onAction="#CreateNewModuleClicked" prefHeight="48.0" prefWidth="142.0" style="-fx-background-color: #426B1F;" text="Создать новый модуль" textAlignment="CENTER" textFill="#fbf9f9" wrapText="true">
+         <font>
+            <Font name="Century Gothic" size="12.0" />
+         </font></Button>
+      <Pane layoutX="60.0" layoutY="207.0" onMousePressed="#EnterModule1Clicked" prefHeight="120.0" prefWidth="142.0" style="-fx-background-color: #426B1F;">
+         <children>
+            <Label fx:id="Module1_name" alignment="CENTER" layoutY="-10.0" onMouseClicked="#EnterModule1Clicked" prefHeight="133.0" prefWidth="142.0" text="Модуль 1" textAlignment="CENTER" textFill="#f4f0f0" wrapText="true">
+               <font>
+                  <Font name="Century Gothic" size="18.0" />
+               </font>
+            </Label>
+         </children></Pane>
+      <Pane layoutX="231.0" layoutY="207.0" onMousePressed="#EnterModule2Clicked" prefHeight="120.0" prefWidth="142.0" style="-fx-background-color: #426B1F;">
+         <children>
+            <Label fx:id="Module2_name" alignment="CENTER" layoutY="-10.0" onMouseClicked="#EnterModule2Clicked" prefHeight="133.0" prefWidth="142.0" text="Модуль 2" textAlignment="CENTER" textFill="#f4f0f0" wrapText="true">
+               <font>
+                  <Font name="Century Gothic" size="18.0" />
+               </font>
+            </Label>
+         </children></Pane>
+      <Pane layoutX="399.0" layoutY="207.0" onMousePressed="#EnterModule3Clicked" prefHeight="120.0" prefWidth="142.0" style="-fx-background-color: #426B1F;">
+         <children>
+            <Label fx:id="Module3_name" alignment="CENTER" layoutY="-10.0" onMouseClicked="#EnterModule3Clicked" prefHeight="133.0" prefWidth="142.0" text="Модуль 3" textAlignment="CENTER" textFill="#f4f0f0" wrapText="true">
+               <font>
+                  <Font name="Century Gothic" size="18.0" />
+               </font>
+            </Label>
+         </children></Pane>
+      <Label alignment="CENTER" layoutX="66.0" layoutY="96.0" prefHeight="70.0" prefWidth="272.0" text="Ваша библиотека">
+         <font>
+            <Font name="Century Gothic" size="24.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="478.0" prefWidth="701.0" style="-fx-background-color: #fdfcf9;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.coursework.LoginController">
+   <children>
+      <Label layoutX="254.0" layoutY="64.0" prefHeight="54.0" prefWidth="192.0" text="АВТОРИЗАЦИЯ" textFill="#426b1f">
+         <font>
+            <Font name="Century Gothic" size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="Register" layoutX="426.0" layoutY="354.0" mnemonicParsing="false" onAction="#RegisterClicked" prefHeight="43.0" prefWidth="119.0" style="-fx-background-color: #f9faf9; -fx-border-color: #d5dbda;" text="регистрация" textFill="#0d0d0d">
+         <font>
+            <Font name="Century Gothic" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="EnterProfile" layoutX="156.0" layoutY="354.0" mnemonicParsing="false" onAction="#EnterProfileClicked" prefHeight="43.0" prefWidth="119.0" style="-fx-background-color: #426b1f;" text="войти" textFill="#f8f5f5">
+         <font>
+            <Font name="Century Gothic" size="19.0" />
+         </font>
+      </Button>
+      <TextField fx:id="Password" layoutX="215.0" layoutY="239.0" prefHeight="43.0" prefWidth="270.0" promptText="Пароль" style="-fx-background-color: #f7f6eb;">
+         <font>
+            <Font name="Century Gothic" size="12.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="Login" layoutX="215.0" layoutY="173.0" prefHeight="43.0" prefWidth="270.0" promptText="Логин" style="-fx-background-color: #f7f6eb;">
+         <font>
+            <Font name="Century Gothic" size="12.0" />
+         </font>
+      </TextField>
+   </children>
+</Pane>
